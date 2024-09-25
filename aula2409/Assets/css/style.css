@@ -1,0 +1,98 @@
+body {
+background: rgb(120, 120, 120);
+    background: #000;
+    font-family: "Google sans",Arial,sans-serif-medium, sans-serif;
+    color: white;
+    
+}
+.logo-header{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    
+}
+header{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+h1{
+    color: #000;
+    margin-left: 10px;
+}
+h2{
+    color: #000;
+    margin-left: 10px;
+}
+:-moz-any(+){
+    color: #000;
+    margin-left: 10px;
+   
+}
+strong{
+    color: rgb(46, 145, 211);
+}
+p{
+    color: #000;
+    margin-left: 10px;
+}
+.diverson-1{
+    background-color: #fff;
+    width: 400px;
+    border-radius: 5%;
+    box-shadow: #fff;
+    margin-left: 15px;
+    box-shadow: 15px 8px 15px rgb(28, 245, 48);
+    transition: 0.7s;
+    transition-duration: 0.7s;
+}
+.diverson-1:hover{
+    transform: scale(1.0);
+    justify-content: center;
+    margin-left: 100px;
+
+}
+.diverson-2{
+    background-color: #fff;
+    width: 800px;
+    border-radius: 5%;
+    box-shadow: #fff;
+    margin-left: 15px;
+    box-shadow: 15px 8px 15px rgb(46, 145, 211);
+    transition: 0.7s;
+    transition-duration: 0.7s;
+}
+.diverson-2:hover{
+    transform: scale(1.0);
+    justify-content: center;
+    margin-left: 100px;
+
+}
+.diverson-rei{
+    position: relative;
+    display: flex;
+    
+}
+.link-header{
+    justify-content: flex-end;
+    margin: 50px 40px;
+    justify-content: space-between;
+    padding: auto;
+    justify-content: right;
+    color: white;
+    transition: 0.7s;
+    transition-duration: 0.7s;
+
+    font-size: 20px;
+}.link-header:hover{
+   color: rgb(46, 145, 211);
+    justify-content: center;
+}
+footer{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
